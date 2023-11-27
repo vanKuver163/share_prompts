@@ -1,7 +1,6 @@
 import React from "react";
 
 import PromptCard from "./PromptCard";
-import { Span } from "next/dist/trace";
 
 const Profile = ({ name, desc, data, handleEdit, handleDelete }) => {
   return (
